@@ -1,0 +1,26 @@
+.platformCard img{
+    width: 18rem;
+    height: 25rem;
+}
+.platformCard{
+    margin: 2rem 2rem 2rem 0;
+    cursor: pointer;
+}
+.platformCard:hover{
+    animation-name: example;
+    animation-duration: 2s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 5px;
+    border-radius: 3rem;
+}
+@keyframes example {
+    from {transform: scale(1)}
+    to {transform: scale(1.1)}
+  }
+
+  
+@media screen and (max-width: 600px) {
+    .platformCard img{
+        width: 13rem;
+        height: 16rem;
+    }
+}

@@ -1,0 +1,28 @@
+.feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    width: 25%;
+    height: 5rem;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+}
+.feature:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .feature{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 8rem;
+        height: 5rem;
+        
+    }
+}

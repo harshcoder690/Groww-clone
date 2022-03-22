@@ -1,0 +1,22 @@
+.blogImage{
+    width: 21.875rem;
+    height: 17.1875rem;
+}
+.blog{
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    max-width: 22rem;
+    cursor: pointer;
+}
+.blogTitle{
+    font-weight: 500;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+@media screen and (max-width: 600px) {
+    .blogImage{
+        width: 19rem;
+        height: 15rem;
+    }
+}

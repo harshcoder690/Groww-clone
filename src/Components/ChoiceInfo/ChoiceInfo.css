@@ -1,0 +1,51 @@
+.choiceInfo span img{
+    width: 40rem;
+    height: 25rem;
+}
+.choiceInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #44475b;
+}
+.choiceInfo strong{
+    font-size: 5rem;
+    font-weight: 700;
+    color: #44475b;
+}
+.choiceInfo .firstLine{
+    font-weight: 500;
+    font-size: 1.75rem; 
+}
+
+.choiceInfo button{
+    margin-top: 2rem;
+    background: #00d09b;
+    padding: 0.5rem;
+    color: #ffffff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.2rem;
+    width: 13rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.choiceInfo .secondLine{
+    margin-top: 1.5rem;
+    line-height: 1.5rem;;
+}
+
+.rightChoiceInfo{
+        padding-left: 3rem; 
+}
+
+@media screen and (max-width: 600px) {
+    .choiceInfo{
+        flex-direction: column;
+    }
+    .choiceInfo span img{
+        width: 20rem;
+        height: 15rem;
+    }
+}

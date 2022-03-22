@@ -1,0 +1,115 @@
+.topFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.8rem;
+    padding-top: 3rem;
+    box-sizing: border-box;
+}
+.footer{
+    background: #1e2232;
+    color: white;
+    height: 100%;
+    width: 100%;
+    margin-top: 5rem;
+}
+.contactUs{
+    display: flex;
+    flex-direction: column;
+    padding-right: 4rem;
+}
+.address span{
+    display: block;
+}
+
+.contactUs img{
+    width: 10rem;
+    padding-bottom: 1.5rem;
+}
+.socialMedia img{
+    width: 2rem;
+    padding: 0.2rem;
+}
+.columns{
+    display: flex;
+}
+.socialMedia{
+    padding: 2rem 0;
+    
+}
+.horizontalRow{
+    display: block;
+    border-bottom: 0.06rem solid #fff;
+    width: 70%;
+    margin: auto;
+}
+
+.heart{
+    color: red;
+    font-size: 2rem;
+}
+
+.bottomFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyRight{
+    padding-right: 12rem;
+}
+.footerBottomImages img{
+    padding: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .topFooter{
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 1rem;
+    }
+    .bottomFooter{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .contactUs{
+        padding: 0;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        text-align: left;
+        width: 100%;
+    }
+    .contactUs img{
+        width: 8rem;
+        height: 3rem;
+        margin: auto
+    }
+
+    .footer{
+        font-size: 0.6rem;
+        
+    }
+    .socialMedia{
+        padding: 0;
+    }
+    .address{
+        width: 10rem;
+    }
+    .socialMedia img{
+        width: 1rem !important;
+    }
+    .copyRight{
+        padding-right: 0;
+        padding: 1rem 0;;
+    }
+
+    .heart{
+        color: red;
+        font-size: 1rem;
+    }
+
+    .footerBottomImages img{
+        padding: 1rem 0;
+    }
+}

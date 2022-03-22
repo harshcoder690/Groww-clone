@@ -1,0 +1,30 @@
+.blogs{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    color: #44475b;
+}
+.articles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    margin: 5rem 0 4rem 0;
+    color: #44475b;
+}
+.viewAll{
+    color: #00d09b;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .blogs{
+        flex-direction: column;
+    }
+    
+}

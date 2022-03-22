@@ -1,0 +1,47 @@
+.headingInvest{
+    font-size: 4rem;
+    color: #44475a;
+    padding-bottom: 2rem;
+}
+.headingInvest span{
+    display: block;
+}
+.investAnywhere{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100%;
+}
+.investInfo{
+    max-width: 22rem;
+}
+.leftInvestAnywhere{
+    width: 45%;
+    margin-left: 5rem;
+}
+.headingOfLeft{
+    padding-bottom: 4rem;
+}
+.platfromCards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-height: 70rem;
+}
+
+@media screen and (max-width: 600px) {
+    .platfromCards{
+        max-height: 100%;
+    }
+    .investAnywhere{
+       flex-direction: column;
+    }
+    .leftInvestAnywhere{
+        width: 100%;
+        margin-left: 0rem;
+    }
+}

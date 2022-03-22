@@ -1,0 +1,21 @@
+.investFeatures{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.investFeatures img{
+    width: 3rem;
+    height: 3rem;
+}
+.text1{
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.text2{
+    max-width: 16rem;
+    line-height: 1.8rem;
+}
+.investTexts{
+    padding-left: 1rem;
+}
+

@@ -1,0 +1,71 @@
+.introSection{
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 5rem;
+}
+.leftIntro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start
+}
+.leftIntro .firstRow{
+    font-size: 2.3750rem;
+    padding-bottom: 2rem;
+}
+.leftIntro .secondRow{
+    font-weight: 400;
+    color: #7c7e8c;
+    line-height: 2rem;
+}
+
+.leftIntro .thirdRow{
+    font-weight: 400;
+    color: #7c7e8c;
+    line-height: 2rem;
+    padding-bottom: 2rem;
+}
+
+.getStarted button{
+    background: #00d09b;
+    padding: 0.5rem;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.2rem;
+    width: 10rem;
+    height: 3rem;
+}
+
+.getStarted button:hover{
+    cursor: pointer;
+}
+
+.rightIntro{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+    .introSection{
+        max-width: 100%;
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+    .rightIntro{
+        margin: 2rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .leftIntro .firstRow{
+        max-width: 10rem;
+        line-height: 3rem;
+    }
+}

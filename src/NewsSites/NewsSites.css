@@ -1,0 +1,12 @@
+.newsSites{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .newsSites{
+        flex-direction: column;
+    }
+}
